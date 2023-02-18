@@ -18,25 +18,27 @@
     <title>Felicitaciones Agostein!</title>
 </head>
 <body>
-    <div id="delete-tag-modal" class="hidden bg-[rgba(0,0,0,0.2)] fixed w-full h-full overflow-auto flex justify-center items-center">
+    <div id="modal" class="hidden bg-[rgba(0,0,0,0.2)] fixed w-full h-full overflow-auto flex justify-center items-center">
         <div class="bg-white min-h-fit w-10/12 md:w-1/3 rounded-md m-3 p-4 shadow-md shadow-lg">
-            <div class="flex flex-col">
-                <a href=""><i class="fa-solid fa-xmark"></i></a>
-                <p>Jo Payer</p>
-                <p>Lucho Marmet</p>
-                <p>Clau Ciancio</p>
-                <p>Cris Lopez</p>
-                <p>Vicky Grunstein</p>
-                <p>Ine Mendizabal</p>
-                <p>Nati Djamalian</p>
-                <p>Ro Fontenla</p>
-                <p>Emi Sauro</p>
-                <p>Nacho Yapur</p>
-                <p>Stefano Pistoia</p>
-                <p>Mica Finoli</p>
-                <p>Moni Schweitzer</p>
-                <p>Gusty Benitez</p>
-                <h1 class="text-2xl">¡TE QUEREMOS MUCHO!</h1>
+            <div class="flex flex-col items-center">
+                <a id="close" class="self-end"><i class="fa-solid fa-xmark text-lg"></i></a>
+                <div id="signatures" class="w-10/12 flex flex-col items-start text-xl">
+                    <p class="md:my-0.5">&#128156;Jo Payer</p>
+                    <p class="self-center md:my-0.5">&#128154;Lucho Marmet</p>
+                    <p class="self-end md:my-0.5">❤️Clau Ciancio</p>
+                    <p class="self-center md:my-0.5">&#129505;Cris Lopez</p>
+                    <p class="md:my-0.5">&#128153;Vicky Grunstein</p>
+                    <p class="self-center md:my-0.5">&#128155;Ine Mendizabal</p>
+                    <p class="self-end md:my-0.5">&#128156;Nati Djamalian</p>
+                    <p class="self-center md:my-0.5">&#129505;Ro Fontenla</p>
+                    <p class="md:my-0.5">&#128155;Emi Sauro</p>
+                    <p class="self-center md:my-0.5">&#128153;Nacho Yapur</p>
+                    <p class="self-end md:my-0.5">&#128154;Stefano Pistoia</p>
+                    <p class="self-center md:my-0.5">&#129505;Mica Finoli</p>
+                    <p class="md:my-0.5">❤️Moni Schweitzer</p>
+                    <p class="self-center md:my-0.5">&#128155;Gusty Benitez</p>
+                </div>
+                <h1 class="text-2xl mt-3 text-center">¡TE QUEREMOS MUCH&#10084;!</h1>
             </div>    
         </div>
     </div>
@@ -47,9 +49,9 @@
             <img src="assets/luca.jpg" width="50%"/>
             <h1 class="text-2xl lg:text-3xl font-extrabold text-center">¡Bienvenido &#128153; <strong>Luca</strong> !</h1>
             <p class="m-4 text-center">Les deseamos todo lo mejor en esta nueva etapa &#127752;&#128156;</p>
-            <button class="text-white py-3 px-4 m-2 button-21">¿Quiénes?</button>
+            <button id="btn" class="text-white py-3 px-4 m-2 button-21">¿Quiénes?</button>
         </div>
     </section>
-
+<script src="script.js"></script>
 </body>
 </html>

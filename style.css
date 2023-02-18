@@ -3,13 +3,19 @@
     src: url(assets/messie.otf);
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
+@font-face {
+  font-family: hanna;
+  src: url(assets/hanna.ttf);
+}
+
+#signatures {
+  font-family: hanna;
 }
 
 body {
     background-color: #006875;
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -63,4 +69,8 @@ strong {
 
 .button-21:focus:not(:active) {
   box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+a {
+  cursor: pointer;
 }
